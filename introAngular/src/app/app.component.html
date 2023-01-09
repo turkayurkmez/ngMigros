@@ -3,9 +3,14 @@
 
   <h1 [innerText]="title"></h1>
   <p>Bu sayfa, {{ creator }} tarafından {{ createdDate }} tarihinde oluşturulmuştur. </p>
-  <button class="btn btn-success" (click)="clicked()">Tıklayınız</button>
+  <button class="btn btn-success" (click)="filter()">{{getButtonText()}}</button>
 
-  <ul *ngFor="let item of todoItems">
-    <li>{{item.task}} ({{item.isDone}})</li>
-  </ul>
+  <p>Yapılacak toplam iş: {{ getItemsCount() }}</p>
+  <div *ngFor="let item of todoItems">
+    <div>
+      <input class="form-check-input p-1" type="checkbox" [(ngModel)]="item.isDone" name="" id="">  {{item.task}}
+      <span [ngClass]="item.isDone ? 'bg-primary':'bg-danger'" class="badge rounded-pill">{{item.isDone ? 'yapıldı':'yapılmadı'}}</span>
+    </div>
+    <!-- <li [ngClass]="item.isDone ? 'green':'red'">{{item.task}} ({{item.isDone ? 'yapıldı':'yapılmadı'}})</li> -->
+  </div>
 </div>

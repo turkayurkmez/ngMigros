@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { todoItems } from './models/todoItem.mock';
 import { TodoItem } from './models/todoItem.model';
 
 @Component({
@@ -11,15 +12,26 @@ export class AppComponent {
   creator:string = 'Türkay Ürkmez';
   createdDate:string = 'Ocak 2023';
 
-  todoItems: TodoItem[] = [
-    new TodoItem("Çiçekleri Sula",false),
-    new TodoItem(".NET Core ile Web API Geliştir",true),
-    new TodoItem("Angular ile frontend planını yap",false)
-  ];
-  
+  todoItems: TodoItem[] = todoItems
 
-  clicked():void{
-   alert('tıklandı')
-   
+  isAllTaskDisplaying:boolean = true;
+
+  getButtonText():string{
+    return this.isAllTaskDisplaying ? "Yapılan işleri gizle": "Tüm görevleri göster";
+  }
+  
+  getItemsCount():number{
+    return this.todoItems.filter(x=>!x.isDone).length;
+  }
+
+  filter():void{
+  //  alert('tıklandı')
+    this.isAllTaskDisplaying = !this.isAllTaskDisplaying;
+    if(!this.isAllTaskDisplaying){
+      this.todoItems = this.todoItems.filter(x=>!x.isDone);
+    }
+    else{
+      this.todoItems = todoItems;
+    }
   }
 }
