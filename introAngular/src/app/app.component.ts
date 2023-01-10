@@ -34,4 +34,9 @@ export class AppComponent {
       this.todoItems = todoItems;
     }
   }
+
+  addNewTask(taskName:string):void{
+    let todoItem = new TodoItem(taskName,false);
+    this.todoItems.push(todoItem);
+  }
 }

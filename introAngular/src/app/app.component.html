@@ -1,3 +1,4 @@
+<app-header-menu></app-header-menu>
 <div class="container">
 
 
@@ -13,4 +14,12 @@
     </div>
     <!-- <li [ngClass]="item.isDone ? 'green':'red'">{{item.task}} ({{item.isDone ? 'yapıldı':'yapılmadı'}})</li> -->
   </div>
+
+<div class="row">
+  <div class="col-12">
+    <input #task type="text" class="form-control" placeholder="Yapılacak iş" value="">
+    <button (click)="addNewTask(task.value)" class="btn btn-primary">Yeni Görev Ekle</button>
+   </div>
+
+</div>
 </div>
