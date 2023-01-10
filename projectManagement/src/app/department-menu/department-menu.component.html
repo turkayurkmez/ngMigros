@@ -1,1 +1,5 @@
-<p>department-menu works!</p>
+<div class="list-group" *ngFor="let department of departments ">
+    <a class="list-group-item list-group-item-action" aria-current="true">
+        {{department.name}}
+    </a>
+</div>

@@ -1,3 +1,6 @@
+import { Task } from "./task.model";
+
+
 export class Project{
     constructor(
         public id?:number,
@@ -5,7 +8,8 @@ export class Project{
         public description?:string,
         public startDate?: Date,
         public completedPercent?:number,
-        public tasks?: any[] //any olmaz burada :)
+        public tasks?: Task[], //any olmaz burada :)
+        public departmentId?:number
         
     ){
 
