@@ -1,14 +1,12 @@
 <div class="container">
     <div class="row">
         <div class="col-12">
-            <input type="text" name="" placeholder="Aranacak proje" id="" class="form-control">
+            <input type="text" [(ngModel)]="searchKey" name="" placeholder="Aranacak proje" id="" class="form-control">
         </div>
     </div>
     <div class="row">
-        <div class="col-12">
-            <app-project></app-project>
-            <app-project></app-project>
-            <app-project></app-project>
+        <div class="col-12" *ngFor="let project of projects | search: searchKey">
+            <app-project [activeProject]="project"></app-project>
 
         </div>
     </div>

@@ -1,11 +1,5 @@
-<ul class="list-group">
+<ul class="list-group" *ngFor="let task of tasks">
     <li class="list-group-item">
-        <input type="checkbox" name="" class="form-check-input" id=""> Görev Adı 
-    </li>
-    <li class="list-group-item">
-        <input type="checkbox" name="" class="form-check-input" id=""> Görev Adı 
-    </li>
-    <li class="list-group-item">
-        <input type="checkbox" name="" class="form-check-input" id=""> Görev Adı 
-    </li>
+        <input type="checkbox" name="" class="form-check-input" id="" [(ngModel)]="task.isDone"> {{ task.name}} - {{task.expectedDate | date:'dd MMMM YYYY'}}
+    </li>  
 </ul>
