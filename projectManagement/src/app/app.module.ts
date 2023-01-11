@@ -11,6 +11,10 @@ import { TaskListComponent } from './task-list/task-list.component';
 import { FormsModule } from '@angular/forms';
 import { SearchPipe } from './pipes/search.pipe';
 import { HttpClientModule  } from "@angular/common/http";
+import { DepartmentsService } from './services/departments.service';
+import { AddProjectComponent } from './add-project/add-project.component';
+import { AddDepartmentComponent } from './add-department/add-department.component';
+
 
 @NgModule({
   declarations: [
@@ -20,7 +24,10 @@ import { HttpClientModule  } from "@angular/common/http";
     ProjectListComponent,
     ProjectComponent,
     TaskListComponent,
-    SearchPipe
+    SearchPipe,
+    AddProjectComponent,
+    AddDepartmentComponent
+   
   ],
   imports: [
     BrowserModule,

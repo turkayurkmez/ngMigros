@@ -14,7 +14,7 @@ export class DepartmentMenuComponent implements OnInit {
 
   }
   ngOnInit(): void {
-    //https://localhost:7125/api/Departments
+  
     this.departmentService.getDepartments()
                           .subscribe(data=>this.departments=data);
   }

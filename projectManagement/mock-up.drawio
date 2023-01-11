@@ -1,44 +1,47 @@
 <mxfile host="65bd71144e">
     <diagram id="PTNzAKhGZ3TNOoIh6ZDY" name="Page-1">
-        <mxGraphModel dx="1312" dy="1478" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="606" dy="1424" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="2" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="2" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="60" y="20" width="170" height="660" as="geometry"/>
                 </mxCell>
-                <mxCell id="3" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="250" y="160" width="510" height="160" as="geometry"/>
+                <mxCell id="13" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="60" y="-70" width="940" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="4" value="&lt;h1&gt;Project 1&lt;/h1&gt;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-                    <mxGeometry x="265" y="170" width="480" height="90" as="geometry"/>
+                <mxCell id="15" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="260" y="20" width="800" height="650" as="geometry"/>
                 </mxCell>
-                <mxCell id="5" value="Tasks&lt;br&gt;* T1&lt;br&gt;* T2" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="280" y="250" width="270" height="60" as="geometry"/>
+                <mxCell id="16" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="405" y="130" width="510" height="160" as="geometry"/>
                 </mxCell>
-                <mxCell id="6" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="250" y="340" width="510" height="160" as="geometry"/>
+                <mxCell id="17" value="&lt;h1&gt;Project 1&lt;/h1&gt;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="420" y="140" width="480" height="90" as="geometry"/>
                 </mxCell>
-                <mxCell id="7" value="&lt;h1&gt;Heading&lt;/h1&gt;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-                    <mxGeometry x="270" y="350" width="480" height="90" as="geometry"/>
+                <mxCell id="18" value="Tasks&lt;br&gt;* T1&lt;br&gt;* T2" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="435" y="220" width="270" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="8" value="Tasks&lt;br&gt;* T1&lt;br&gt;* T2" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="270" y="430" width="270" height="60" as="geometry"/>
+                <mxCell id="19" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="405" y="310" width="510" height="160" as="geometry"/>
                 </mxCell>
-                <mxCell id="9" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="250" y="530" width="510" height="160" as="geometry"/>
+                <mxCell id="20" value="&lt;h1&gt;Heading&lt;/h1&gt;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="425" y="320" width="480" height="90" as="geometry"/>
                 </mxCell>
-                <mxCell id="10" value="&lt;h1&gt;Heading&lt;/h1&gt;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-                    <mxGeometry x="270" y="540" width="480" height="90" as="geometry"/>
+                <mxCell id="21" value="Tasks&lt;br&gt;* T1&lt;br&gt;* T2" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="425" y="400" width="270" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="11" value="Tasks&lt;br&gt;* T1&lt;br&gt;* T2" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="270" y="620" width="270" height="60" as="geometry"/>
+                <mxCell id="22" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="405" y="500" width="510" height="160" as="geometry"/>
                 </mxCell>
-                <mxCell id="12" value="" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
-                    <mxGeometry x="265" y="30" width="490" height="60" as="geometry"/>
+                <mxCell id="23" value="&lt;h1&gt;Heading&lt;/h1&gt;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="425" y="510" width="480" height="90" as="geometry"/>
                 </mxCell>
-                <mxCell id="13" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="60" y="-70" width="740" height="60" as="geometry"/>
+                <mxCell id="24" value="Tasks&lt;br&gt;* T1&lt;br&gt;* T2" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="425" y="590" width="270" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+                    <mxGeometry x="415" y="20" width="490" height="60" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
