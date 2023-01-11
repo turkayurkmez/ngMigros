@@ -8,12 +8,13 @@ import { DepartmentMenuComponent } from './department-menu/department-menu.compo
 import { ProjectListComponent } from './project-list/project-list.component';
 import { ProjectComponent } from './project/project.component';
 import { TaskListComponent } from './task-list/task-list.component';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { SearchPipe } from './pipes/search.pipe';
 import { HttpClientModule  } from "@angular/common/http";
 import { DepartmentsService } from './services/departments.service';
-import { AddProjectComponent } from './add-project/add-project.component';
+import AddProjectComponent from './add-project/add-project.component';
 import { AddDepartmentComponent } from './add-department/add-department.component';
+import { LoginComponent } from './login/login.component';
 
 
 @NgModule({
@@ -26,14 +27,16 @@ import { AddDepartmentComponent } from './add-department/add-department.componen
     TaskListComponent,
     SearchPipe,
     AddProjectComponent,
-    AddDepartmentComponent
+    AddDepartmentComponent,
+    LoginComponent
    
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    HttpClientModule
+    HttpClientModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -18,4 +18,13 @@ export class DepartmentsService {
                             return throwError(()=>new Error(err.statusText))
                           }));
   }
+
+  addDepartment(department: Department):Observable<Department>{
+      return this.httpClient.post(this.url,department)
+                            .pipe(catchError((err:HttpErrorResponse)=>{
+                                    console.log(err.message);
+                                    return throwError(()=>new Error(err.statusText))
+                            }))
+  }
+
 }
