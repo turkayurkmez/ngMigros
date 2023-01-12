@@ -16,9 +16,12 @@ export class LoginGuard implements CanActivate {
     state: RouterStateSnapshot): Observable<boolean | UrlTree> | Promise<boolean | UrlTree> | boolean | UrlTree {
 
     if (!this.userService.isUserLoggedIn) {
+      //kullanıcı nereye gitmek istiyordu?
+      this.userService.returnUrl = route.url[0].path;
       this.router.navigate(['login']);
       return false;
     }
+
 
     return true;
   }

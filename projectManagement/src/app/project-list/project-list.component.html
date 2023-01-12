@@ -1,4 +1,4 @@
-<div class="container">
+<div class="container" *ngIf="projects; else notFound">
     <div class="row">
         <div class="col-12">
             <input type="text" [(ngModel)]="searchKey" name="" placeholder="Aranacak proje" id="" class="form-control">
@@ -11,3 +11,8 @@
         </div>
     </div>
 </div>
+<ng-template #notFound>
+    <div class="alert alert-danger">
+        Projeler, API'den çekilemedi...
+    </div>
+</ng-template>

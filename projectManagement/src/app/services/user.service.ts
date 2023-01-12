@@ -8,6 +8,7 @@ export class UserService {
   constructor() { }
 
   isUserLoggedIn:boolean = false;
+  returnUrl: string;
 
   validateUser(userName:string, pass:string){
     if (userName === 'turkay' && pass === 'admin') {

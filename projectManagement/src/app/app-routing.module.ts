@@ -10,8 +10,9 @@ const routes: Routes = [
   {path:'', component: ProjectListComponent},
   {path:'tumProjeler', component: ProjectListComponent},
   {path:'projeEkle', component: AddProjectComponent, canActivate:[LoginGuard] },
-  {path:'departmanEkle', component: AddDepartmentComponent},
-  {path:'login', component:LoginComponent}
+  {path:'departmanEkle', component: AddDepartmentComponent, canActivate:[LoginGuard]},
+  {path:'login', component:LoginComponent},
+  {path:'projeler/kategori/:id', component:ProjectListComponent}
   
 ];
 
