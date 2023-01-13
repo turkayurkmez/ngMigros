@@ -1,0 +1,7 @@
+<div *ngFor="let book of books">
+    <p>
+        {{ book.volumeInfo.title}} ({{book.volumeInfo.authors}})
+    </p>
+
+    <button (click)="add.emit(book.id)" >Koleksiyona ekle</button>
+</div>

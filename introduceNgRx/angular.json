@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "reactive-app": {
+    "introduceNgRx": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/reactive-app",
+            "outputPath": "dist/introduce-ng-rx",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
@@ -60,10 +60,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "reactive-app:build:production"
+              "browserTarget": "introduceNgRx:build:production"
             },
             "development": {
-              "browserTarget": "reactive-app:build:development"
+              "browserTarget": "introduceNgRx:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -71,7 +71,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "reactive-app:build"
+            "browserTarget": "introduceNgRx:build"
           }
         },
         "test": {
@@ -96,6 +96,6 @@
     }
   },
   "cli": {
-    "analytics": "44338c99-163d-4037-9589-69703262ffb5"
+    "analytics": "6d666c29-f2bd-4e24-ab64-11c92ba712f1"
   }
 }

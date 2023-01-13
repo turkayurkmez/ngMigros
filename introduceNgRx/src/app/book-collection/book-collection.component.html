@@ -1,0 +1,4 @@
+<div *ngFor="let book of books">
+    <p>{{book.volumeInfo.title}} Yazarı; {{book.volumeInfo.authors}} </p>
+    <button (click)="remove.emit(book.id)">Koleksiyondan kaldır</button>
+</div>
